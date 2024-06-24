@@ -18,8 +18,6 @@ public class Util {
         Connection con = null;
         try {
             con = DriverManager.getConnection(url, user, password);
-
-
         } catch (SQLException sqlEx) {
             sqlEx.printStackTrace();
         }
